@@ -10,4 +10,6 @@ func Init(fname string) Lexer {
 	return Lexer{0, 0, fname}
 }
 
-func NextChar()
+func NextChar() byte {
+	return 0
+}
